@@ -47,12 +47,11 @@ public class Main {
         }
         System.out.println(" ");
         System.out.println("Задача 4");
-        int[] weightsOne = {1, 2, 3};
-        for (int i = 0; i < weightsOne.length; i++) {
-            if (weightsOne[i] % 2 != 0) {
-                weightsOne[i]++;
+        for (int i = 0; i < weights.length; i++) {
+            if (weights[i] % 2 != 0) {
+                weights[i]++;
             }
         }
-        System.out.println(Arrays.toString(weightsOne));
+        System.out.println(Arrays.toString(weights));
     }
 }
